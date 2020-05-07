@@ -1,0 +1,51 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    Theme.AppCompat.Light.DarkActionBar
+
+    //normal mode
+    <style name="main_theme_light" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="main_text_color">@color/main_text_color_light</item>
+        <item name="main_bg_color">@color/main_bg_color_light</item>
+        <item name="div_color">@color/div_color_light</item>
+    </style>
+
+    //dark mode
+    <style name="main_theme_dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="main_text_color">@color/main_text_color_dark</item>
+        <item name="main_bg_color">@color/main_bg_color_dark</item>
+        <item name="div_color">@color/div_color_dark</item>
+    </style>
+
+    <!--    main text color -->
+    <attr name="main_text_color" format="color" />
+    <!--    main background color -->
+    <attr name="main_bg_color" format="color" />
+    <!--    division color -->
+    <attr name="div_color" format="color" />
+
+
+
+    <style name="tab_menu_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/tab_menu_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:textColor">@drawable/tab_menu_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

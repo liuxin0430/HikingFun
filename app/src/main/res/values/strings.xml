@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HikingFun</string>
+    <string name="gps">GPS</string>
+    <string name="step">Step</string>
+    <string name="note">Note</string>
+    <string name="more">More</string>
+
+    <string name="flash_light">Flash Light</string>
+    <string name="light_on">Flash On</string>
+    <string name="light_off">Light Off</string>
+    <string name="power_saving">Power Saving</string>
+    <string name="dark_on">Dark Mode On</string>
+    <string name="dark_off">Dark Mode Off</string>
+    <string name="about">About</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="about_msg">HikingFun is a App for hiking. It contains GPS, Step Counter, Notepad and some other useful functions.</string>
+</resources>

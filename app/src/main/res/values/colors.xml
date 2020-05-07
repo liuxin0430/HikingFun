@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    //color under different mode
+    <color name="main_text_color_light">#000000</color>
+    <color name="main_text_color_dark">#ffffff</color>
+    <color name="main_bg_color_light">#ffffff</color>
+    <color name="main_bg_color_dark">#000000</color>
+    <color name="div_color_light">#E5E5E5</color>
+    <color name="div_color_dark">#080808</color>
+
+    <color name="bg_black">#000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="text_gray">#8D7A71</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_green">#32CD32</color>
+    <color name="div_white">#E5E5E5</color>
+</resources>
